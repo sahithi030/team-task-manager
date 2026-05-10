@@ -5,13 +5,10 @@ import { format } from 'date-fns';
 import { useForm } from 'react-hook-form';
 import { 
   ArrowLeft, 
-  Plus, 
-  Users, 
+  Plus,  
   Calendar,
   CheckSquare,
   MoreHorizontal,
-  Edit,
-  Trash2,
   UserPlus,
   UserMinus,
   Settings
