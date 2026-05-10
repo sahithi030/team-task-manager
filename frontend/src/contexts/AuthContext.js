@@ -100,7 +100,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     loadUser();
-  }, []); // Only run on mount
+  }, [state.token]); // Only run on mount
 
   // Login function
   const login = async (credentials) => {
