@@ -9,7 +9,6 @@ import {
   Trash2, 
   MessageSquare, 
   Calendar,
-  User,
   Clock,
   CheckSquare
 } from 'lucide-react';
