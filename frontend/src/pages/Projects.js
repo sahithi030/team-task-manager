@@ -6,7 +6,6 @@ import { useForm } from 'react-hook-form';
 import { 
   Plus, 
   Search, 
-  Filter, 
   FolderOpen, 
   Users, 
   Calendar,
