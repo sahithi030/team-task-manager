@@ -239,13 +239,13 @@ const ProjectDetail = () => {
   );
 
   // Fetch project tasks
-  const { data: tasksData, isLoading: tasksLoading } = useQuery(
-    ['project-tasks', id],
-    async () => {
-      const response = await api.get(`/projects/${id}/tasks?limit=10`);
-      return response.data;
-    }
-  );
+ const { data: tasksData } = useQuery(
+  ['project-tasks', id],
+  async () => {
+    const response = await api.get(`/projects/${id}/tasks?limit=10`);
+    return response.data;
+  }
+);
 
   // Add member mutation
   const addMemberMutation = useMutation(
