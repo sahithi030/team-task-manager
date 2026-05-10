@@ -425,9 +425,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-- Project Link: [GitHub Repository](../../)
-- Live Demo: [Deployed Application](https://your-app-url.railway.app)
-- Author: [Your Name](mailto:your.email@example.com)
+- Project Link: [[GitHub Repository](https://github.com/sahithi030/team-task-manager)](../../)
+- Live Demo: team-task-manager-production-9940.up.railway.app
+- Author:Sahithi Thalluri
 
 ---
 
